@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    h1,h3 {
+        text-align: center;
+    }
+    img#stud1{
+        float: right;
+    }
+    table#tableLabWorks td{
+        border: 1px solid black;
+        border-radius: 5px;
+        text-align: center;
+        padding: 15px;
+        background-color: rgb(171, 255, 176);
+    }
+    table#tableContent td{
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        padding: 15px;
+        background-color: rgb(171, 255, 176);
+    }
+    table#tableContent td#tdContent{
+        width: 88%;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: left;
+        padding: 15px;
+        background-color: rgb(250, 250, 250);
+    }
+</style>
+<body>
+    <header></header>
+    <main>
+        <h1>Звіти з лабораторних робіт</h1>
+    <h1>З дисципліни "Інтернет-технології та проєктування WEB-застосувань"</h1>
+    <h3>Студента групи ІС-32 Філіпович Дмитро Олександрович</h3>
+    
+    <hr>
+    <table id="tableLabWorks" style="width: 100%;">
+        <tr>
+            <td><a href="Lab1.html">Лабораторна <br>Робота №1</a></td>
+            <td>Лабораторна <br>Робота №2</td> 
+            <td>Лабораторна <br>Робота №3</td>
+            <td>Лабораторна <br>Робота №4</td>
+            <td>Лабораторна <br>Робота №5</td>
+            <td>Лабораторна <br>Робота №6</td>
+            <td>Лабораторна <br>Робота №7</td>
+            <td>Лабораторна <br>Робота №8</td>
+            <td>Лабораторна <br>Робота №9</td>
+        </tr>
+    </table>
+    <hr>
+    <table id="tableContent">
+        <tr>
+            <td><a href="envDescription.html">Опис предметного<br> середовища</a></td>
+           <td rowspan="7" id="tdContent">            
+            <img src="images/tableCode.jpg" style="width: 700px; height: 500px;"> <br>
+            <img src="images/tableScrin.jpg" style="width: 500px; height: 300px;"> <br><br>
+                <h3>Теорія про  теги та атрибути, які застосовуються при створенні таблиць</h3>
+                 Тег &lt;table&gt; визначає HTML таблицю.
+                Кожен рядок таблиці визначається тегом &lt;tr&gt;. Кожен заголовок таблиці визначається тегом &lt;th&gt;. Кожна чарунка з даними таблиці визначається тегом &lt;td&gt;.<br>
+                За замовчуванням текст в елементах &lt;th&gt; виділений жирним шрифтом і відцентрований.<br>
+                За замовчуванням текст в елементах &lt;td&gt; є звичайним і вирівняним за лівим краєм.<br>
+                Щоб зробити чарунку, що охоплює більше одного стовпця, використовуйте атрибут colspan.<br>
+                Щоб зробити чарунку, яка охоплює більше одного рядка, використовуйте атрибут rowspan.<br>
+                Щоб додати підпис до таблиці, використовуйте тег &lt;caption&gt;.<br>
+                Щоб визначити спеціальний стиль для однієї конкретної таблиці, додайте до таблиці атрибут id.<br>
+                Щоб встановити ширину таблиці, додайте атрибут style до елементу &lt;table&gt;.<br>
+                Щоб встановити розмір визначеного стовпця, додайте атрибут style до елементів &lt;th&gt; або &lt;td&gt;.<br>
+                Щоб встановити висоту визначеного рядка, додайте атрибут style до елемента &lt;tr&gt;.<br>           
+           </td> 
+        </tr>
+        <tr>
+            <td><a href="Topic&Aim.html">Тема. Мета. Місце<br> розташування ЛР №1</a> </td>
+        </tr>
+        <tr>
+            <td><a href="DocStructure.html">Структура документа</a> </td>
+        </tr>
+        <tr>
+            <td>HTML-код таблиці</td>
+        </tr>
+        <tr>
+            <td><a href="listDescription.html">HTML-код списку</a></td>
+        </tr>
+        <tr>
+            <td><a href="imageDescription.html">HTML-код зображення</a></td>
+        </tr>
+        <tr>
+            <td><a href="conclusions.html">Висновки</a></td>
+        </tr>
+    </table>
+    </main>
+    <footer></footer>
+    
+    
+</body>
+</html>

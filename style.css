@@ -1,0 +1,38 @@
+body{
+    background: url('/dima.jpg') no-repeat top 20px right 20px;
+    background-size:  100px 125px;        
+}
+h1,h3 {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+.tableLabWorks{
+    width: 100%;
+}
+
+.tableLabWorks td {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(171, 255, 176);
+    
+}
+.tableContent td{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(171, 255, 176);
+}
+.tableContent .tdContent{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+}
