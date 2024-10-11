@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Table Layout</title>
+    <style>
+        table {
+            width: 300px; /* Фиксированная ширина таблицы */
+            border-collapse: collapse;
+        }
+        td {
+            border: 2px solid black;
+            text-align: center;
+            vertical-align: middle;
+            height: 100px; /* Фиксированная высота ячеек */
+        }
+        .cell-1 {
+            background-color: yellow;
+            height: 30px;
+        }
+        .cell-2 {
+            background-color: blue;
+        }
+        .cell-3, .cell-4, .cell-5 {
+            background-color: red;
+        }
+        .cell-4 {
+            background-color: white;
+        }
+        .cell-6 {
+            background-color: yellow;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5" class="cell-1">1</td>
+        </tr>
+        <tr>
+            <td class="cell-2">2</td>
+            <td class="cell-3">3</td>
+            <td class="cell-4">4</td>
+            <td class="cell-5">5</td>
+        </tr>
+        <tr>
+            <td colspan="5" class="cell-6">6</td>
+        </tr>
+    </table>
+</body>
+</html>
