@@ -1,5 +1,5 @@
 body{
-    background: url('/dima.jpg') no-repeat top 20px right 20px;
+    background: url('./dima.jpg') no-repeat top 20px right 20px;
     background-size:  100px 125px;        
 }
 h1,h3 {
