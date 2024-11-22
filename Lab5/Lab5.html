@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<style>
+    
+</style>
+<body onload="hideAll()">
+    <header></header>
+    <main>
+        <h1>Звіти з лабораторних робіт</h1>
+    <h1>З дисципліни "Інтернет-технології та проєктування WEB-застосувань"</h1>
+    <h3>Студента групи ІС-31 Ужакова Нікіти Костянтиновича</h3>
+    
+    <hr>
+    <ul class="listLabWorks">
+        <li><a href="../Lab1.html">Лабораторна <br>Робота №1</a></li>
+        <li><a href="../Lab2/Lab2.html">Лабораторна <br>Робота №2</a></li>
+        <li><a href="../Lab3/Lab3.html">Лабораторна <br>Робота №3</a></li>
+        <li><a href="../Lab4/Lab4.html">Лабораторна <br>Робота №4</a></li>
+        <li><a href="./Lab5.html">Лабораторна <br>Робота №5</a></li>
+        <li>Лабораторна <br>Робота №6</li>
+        <li>Лабораторна <br>Робота №7</li>
+        <li>Лабораторна <br>Робота №8</li>
+        <li>Лабораторна <br>Робота №9</li>
+    </ul>
+
+    <hr>
+    <div class="labContent">
+        <div class="labItems">
+            <ul>
+                <li id="btnTopic"><a onclick="buttonClick(0)">Тема. Мета ЛР №5. Місце <br>розташування сайту, звіту</a></li>                
+                <li id="btnTask1"><a onclick="buttonClick(1)">Завдання №1</a></li>
+                <li id="btnTask2"><a onclick="buttonClick(2)">Завдання №2</a></li>
+                <li id="btnTask3"><a onclick="buttonClick(3)">Завдання №3</a></li>
+                <li id="btnTask4"><a onclick="buttonClick(4)">Завдання №4</a></li>
+                <li id="btnTask5"><a onclick="buttonClick(5)">Завдання №5</a></li>
+                <li id="btnConclusions"><a onclick="buttonClick(6)">Висновки</a></li>                
+            </ul>
+        </div>
+        <div class="content"> 
+            <div id="topic">
+                Тема:  ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. 
+                РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT <br>
+                Мета: придбати практичні навички роботи з конструкціями мови JS, масивами та фугкціями у js-сценаріях.  
+                Реалізація програм засовами мови JAVASCRIPT <br><br>
+
+                Місце розташування ЛР №5: <a href="https://github.com/NKUzhakov/IC-31-Uzhakov-Nikita-Lab-5">https://github.com/NKUzhakov/IC-31-Uzhakov-Nikita-Lab-5</a> <br>
+                Сайт: <a href="https://nkuzhakov.github.io/IC-31-Uzhakov-Nikita-Lab-5/">https://nkuzhakov.github.io/IC-31-Uzhakov-Nikita-Lab-5/</a> <br>            
+                Місце розташування звітнього HTML-документу: <a href="https://github.com/NKUzhakov/IC-31-Uzhakov-Nikita-Report-File">https://github.com/NKUzhakov/IC-31-Uzhakov-Nikita-Report-File</a> <br>
+                Сайт звітнього HTML-документу: <a href="https://nkuzhakov.github.io/IC-31-Uzhakov-Nikita-Report-File/">https://nkuzhakov.github.io/IC-31-Uzhakov-Nikita-Report-File/</a> <br>
+            </div>   
+            
+            <div id="task1">
+                <h2>Програмний код</h2>
+                <img src="./images/Task1 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./images/Task1 result.jpg" alt="result">
+            </div>
+            <div id="task2">
+                <h2>Програмний код</h2>
+                <img src="./images/Task2 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./images/Task2 result.jpg" alt="result">
+            </div>
+            <div id="task3">
+                <h2>Програмний код</h2>
+                <img src="./images/Task3 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./images/Task3 result.jpg" alt="result">
+            </div>
+            <div id="task4">
+                <h2>Програмний код</h2>
+                <img src="./images/Task4 code1.jpg" alt="code"> <br>
+                <img src="./images/Task4 code2.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./images/Task4 result.jpg" alt="result">
+            </div>            
+            <div id="task5">
+                <h2>Програмний код</h2>
+                <img src="./images/Task5 code1.jpg" alt="code">
+                <img src="./images/Task5 code2.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./images/Task5 result.jpg" alt="result">
+            </div>
+            <div id="conclusions">
+                Виконуючи лабораторну роботу з теми ФУНКЦІОНАЛЬНЕ ЗАСТОСУВАННЯ JAVASCRIPT У HTML-ДОКУМЕНТІ. ВИКОРИСТАННЯ МАСИВІВ У JS-СЦЕНАРІЯХ. 
+                РЕАЛІЗАЦІЯ ПРОГРАМ ЗАСОВАМИ МОВИ JAVASCRIPT, були придбані практичні навички роботи з конструкціями мови JS, масивами та фугкціями 
+                у js-сценаріях, та реалізації програм засовами мови JAVASCRIPT.
+            </div>
+        </div>
+        
+    </div>
+    </main>
+    <footer></footer>    
+    <script src="./ButtonFuncions.js"></script>
+</body>
+</html>
