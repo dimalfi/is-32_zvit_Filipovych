@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    
+</style>
+<body onload="hideAll()">
+    <header></header>
+    <main>
+        <h1>Звіти з лабораторних робіт</h1>
+    <h1>З дисципліни "Інтернет-технології та проєктування WEB-застосувань"</h1>
+    <h3>Студента групи ІС-31 Ужакова Нікіти Костянтиновича</h3>
+    
+    <hr>
+    <ul class="listLabWorks">
+        <li><a href="../Lab1.html">Лабораторна <br>Робота №1</a></li>
+        <li><a href="../Lab2/Lab2.html">Лабораторна <br>Робота №2</a></li>
+        <li><a href="../Lab3/Lab3.html">Лабораторна <br>Робота №3</a></li>
+        <li><a href="../Lab4/Lab4.html">Лабораторна <br>Робота №4</a></li>
+        <li><a href="../Lab5/Lab5.html">Лабораторна <br>Робота №5</a></li>
+        <li><a href="../Lab6/Lab6.html">Лабораторна <br>Робота №6</a></li>
+        <li><a href="./Lab7.html">Лабораторна <br>Робота №7</a></li>
+        <li><a href="../Lab8/Lab8.html">Лабораторна <br>Робота №8</a></li>
+        <li>Лабораторна <br>Робота №9</li>
+    </ul>
+
+    <hr>
+    <div class="labContent">
+        <div class="labItems">
+            <ul>
+                <li id="btnTopic" onclick="buttonClick(0)"><a>Тема. Мета ЛР №7. Місце <br>розташування сайту, звіту</a></li>                
+                <li id="btnTask2" onclick="buttonClick(1)"><a>Завдання №2</a></li>
+                <li id="btnTask4" onclick="buttonClick(2)"><a>Завдання №4</a></li>
+                <li id="btnTask6" onclick="buttonClick(3)"><a>Завдання №6</a></li>
+                <li id="btnTask6" onclick="buttonClick(4)"><a>Завдання №7</a></li>
+                <li id="btnTask8" onclick="buttonClick(5)"><a>Завдання №8</a></li>
+                <li id="btnTask9" onclick="buttonClick(6)"><a>Завдання №9</a></li>
+                <li id="btnTask10" onclick="buttonClick(7)"><a>Завдання №10</a></li>
+                <li id="btnConclusions" onclick="buttonClick(8)"><a>Висновки</a></li>                
+            </ul>
+        </div>
+        <div class="content"> 
+            <div id="topic">
+                Тема:  КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ.  <br>
+                Мета: придбати практичні навички роботи з об'єктами. Методи об'єкта. Callback. Стрілочні функції. Стрілочні функції як колбеки.
+                Реалізація програм засобами мови JAVASCRIPT.                
+                <br><br>
+                           
+                Місце розташування звітнього HTML-документу - ЛР №7: <a href="https://github.com/dimalfi/is-32_zvit_Filipovych">https://github.com/dimalfi/is-32_zvit_Filipovych</a> <br>
+                Сайт звітнього HTML-документу: <a href="https://dimalfi.github.io/is-32_zvit_Filipovych/">https://dimalfi.github.io/is-32_zvit_Filipovych/</a> <br>
+            </div>            
+            <div id="task2">                
+                <div class="taskMarkup">
+                    <h2>Завдання 2</h2>
+                    <input type="button" value="SWAP ME" id="swapButton">
+                    <input type="text" id="firstValue">
+                    <input type="text" id="secondValue">
+                </div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 2 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 2 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+
+            </div>
+            <div id="task4">                
+                <div class="taskMarkup">
+                    <h2>Завдання 4</h2>
+                    <div id="square"></div> <br>
+
+                    <input type="button" value="Зменшити" id="makeSmaller">
+                    <input type="button" value="Збільшити" id="makeBigger">
+                </div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 4 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 4 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+
+            </div>
+            <div id="task6">                
+                <div class="taskMarkup">
+                    <h2>Завдання 6</h2>
+                    <ul>
+                        <li>1</li>
+                        <li>4</li>
+                        <li>8</li>
+                        <li>16</li>
+                        <li>20</li>
+                        <li>30</li>
+                    </ul>
+                    <input type="button" value="Подвоїти" id="double">
+                </div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 6 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 6 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+
+
+            </div>
+            <div id="task7">                
+                <div class="taskMarkup">
+                    <ul id="categories">
+                        <li class="item">
+                          <h2>Animals</h2>
+                          <ul>
+                            <li>Cat</li>
+                            <li>Hamster</li>
+                            <li>Horse</li>
+                            <li>Parrot</li>
+                          </ul>
+                        </li>
+                        <li class="item">
+                          <h2>Products</h2>
+                          <ul>
+                            <li>Bread</li>
+                            <li>Prasley</li>
+                            <li>Cheese</li>
+                          </ul>
+                        </li>
+                        <li class="item">
+                          <h2>Technologies</h2>
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                          </ul>
+                        </li>
+                    </ul>
+                </div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 7 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 7 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+                  
+            </div> 
+            <div id="task8">
+                <div class="taskMarkup">
+                    <form class="login-form">
+                        <label>
+                          Email
+                          <input type="email" name="email" />
+                        </label>
+                        <label>
+                          Password
+                          <input type="password" name="password" />
+                        </label>
+                        <button type="submit">Log in</button>
+                      </form>                      
+                </div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 8 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 8 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+            </div>           
+            <div id="task9">               
+                <div class="widget">
+                    <p>Background color: <span class="color">-</span></p>
+                    <button type="button" class="change-color">Change color</button>
+                </div>   
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 9 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 9 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>                   
+                
+            </div>
+            <div id="task10">                
+                <div id="controls">
+                    <input type="number" min="1" max="100" step="1" />
+                    <button type="button" data-create>Create</button>
+                    <button type="button" data-destroy>Destroy</button>
+                </div>                  
+                <div id="boxes"></div>
+                <br>
+                <h2>Програмний код</h2>
+                <img src="./Images/Task 10 code.jpg" alt="code">
+                <h2>Результати виконання</h2>
+                <img src="./Images/Task 10 result.jpg" alt="result">
+                <p>Відповідний HTML файл: Lab7.html</p>
+                  
+            </div>
+            <div id="conclusions">
+                Виконуючи лабораторну роботу з теми КЛАСИ. ОБ'ЄКТНА МОДЕЛЬ ДОКУМЕНТА (DOM). ПОДІЇ. ОБ'ЄКТ ПОДІЇ. ДЕЛЕГУВАННЯ ПОДІЙ, 
+                були придбані практичні навички роботи з об'єктами, методами об'єкта, 
+                Callback, стрілочними функціями, стрілочними функціями як колбеки та реалізацією програм засобами мови JAVASCRIPT.
+            </div>
+        </div>
+        
+    </div>
+    </main>
+    <footer></footer>    
+    <script src="./Scenarium.js"></script>
+    <script src="./ButtonFunctions.js"></script>
+    
+</body>
+</html>

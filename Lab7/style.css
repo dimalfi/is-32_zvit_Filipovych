@@ -1,0 +1,12 @@
+.taskMarkup{
+    background-color: rgb(138, 232, 150);
+    padding: 20px;
+    display: inline-block;
+}
+#square{
+    display: block;
+    border: 2px dashed red;
+}
+.widget{
+    border: 2px dashed black;
+}
